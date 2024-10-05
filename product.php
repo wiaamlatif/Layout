@@ -1,0 +1,16 @@
+<?php   $title="Product"; ?>
+
+<?php ob_start(); ?>
+
+<p>
+azeerty product product.... product.... product.... product.... product.... 
+product.... product.... product.... product.... product.... product.... 
+product.... product.... product.... product.... product.... product.... product.... 
+product.... product.... product.... product.... product.... product.... 
+product.... product.... product.... product.... product.... product.... 
+</p>
+
+
+<?php $content = ob_get_clean(); ?>
+
+<?php include 'layout.php'?>
